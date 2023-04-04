@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/kaushal726/React-test.git/static/css/main.e1efbf20.css",
+    "main.js": "/kaushal726/React-test.git/static/js/main.35de545f.js",
+    "static/js/787.0c3f432a.chunk.js": "/kaushal726/React-test.git/static/js/787.0c3f432a.chunk.js",
+    "index.html": "/kaushal726/React-test.git/index.html",
+    "main.e1efbf20.css.map": "/kaushal726/React-test.git/static/css/main.e1efbf20.css.map",
+    "main.35de545f.js.map": "/kaushal726/React-test.git/static/js/main.35de545f.js.map",
+    "787.0c3f432a.chunk.js.map": "/kaushal726/React-test.git/static/js/787.0c3f432a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e1efbf20.css",
+    "static/js/main.35de545f.js"
+  ]
+}
