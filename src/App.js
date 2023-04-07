@@ -1,24 +1,20 @@
 import { useState } from 'react';
 import './App.css';
-import sum from './calcu';
 function App() {
-  let [add, updatesum] = useState(4);
-  {
-    function updatesum() {
-      return add + 2;
-    }
-    let x = sum()
-    if (x >= add)
-      updatesum();
+  const [randomNumber, setRandomNumber] = useState();
+  function generateOtp() {
+    let randomNo = Math.floor(Math.random() * 100000);
+    setRandomNumber(randomNo);
   }
   return (
     <div className="App">
-      <h1>Hello World{add}</h1>
-      <h1>Hello World{add}</h1>
-      <h1>Hello World{add}</h1>
-      <h1>Hello World{add}</h1>
-      <h1>Hello World{add}</h1>
-      <h1>Hello World{add}</h1>
+      <div>
+        <h1 className='text-3xl text-center'>OTP Generator</h1>
+      </div>
+      <div>
+        <button onClick={generateOtp}>Generate OTP</button>
+        <h1>{randomNumber}</h1>
+      </div>
     </div>
   );
 }
