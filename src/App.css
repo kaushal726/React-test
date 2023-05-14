@@ -1,5 +1,23 @@
+html {
+  all: unset;
+}
+
 h1 {
   font-size: larger;
-  color: blanchedalmond;
-  background-color: black;
+  color: rgb(14, 13, 13);
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  position: absolute;
+  top: 14%;
+  background-color: rgb(130, 202, 243);
+  margin-right: 0;
+  height: 70vh;
+  width: 50%;
+  text-align: center;
+  margin-bottom: auto;
 }
